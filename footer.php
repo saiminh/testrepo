@@ -6,25 +6,29 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package test
+ * @package synthesis2021
  */
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'testing' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'testing' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'testing' ), 'testing', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+	<footer id="colophon" class="site-footer has-synthesis-blue-background-color">
+		<div class="footer-address">
+      2 Eastbourne Terrace<br />
+      London, England<br />
+      W2 6LG
+    </div>
+    <div class="footer-links">
+      <a href="">Contact</a>
+      <a href="">Linkedin</a>
+      <a href="">Twitter</a>
+    </div>
+    <div class="footer-copyright">
+      Synthesis Capital © 2021<br />
+      <a href="">Privacy policy</a> <a href="">Cookie policy</a>
+    </div>
+    <div class="footer-disclaimer">
+      *Placeholder Disclaimer: We use all imagery with the kind permision from the following; Beyond Meat, Impossible Foods, UPSIDE Foods, Perfect Day, Geltor, Redefine Meat, Formo, Aleph Farms, Shiru, Innovopro, Solar Foods, Blue Nalu, JUST and Good Catch.
+    </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
