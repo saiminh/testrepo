@@ -1,1 +1,0 @@
-# Synthesis Wordpress Theme
